@@ -14,5 +14,6 @@ component "base" {
 }
 
 provider "aws" {
+    alias = "this"
     region = "us-east-1"
 }
